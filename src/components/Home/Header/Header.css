@@ -1,0 +1,14 @@
+            
+.header-area{
+    outline-offset: 6px;
+    outline: 1px solid #9538e2ef;
+    box-shadow: 0 0 30px 5px #9538e29f;
+}
+.header-shop-btn{
+    border: 1px solid white;
+    transition: 0.3s ease-in-out;
+}
+.header-shop-btn:hover{
+    background: none;
+    color: white;
+}
