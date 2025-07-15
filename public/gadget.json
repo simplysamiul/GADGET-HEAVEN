@@ -1,0 +1,167 @@
+[
+  {
+    "product_id": "e7f9c1d4-91aa-49b3-b4f8-1e735c74faaa",
+    "product_title": "Wireless Noise-Cancelling Headphones",
+    "product_image": "https://sonysmart.com.bd/public/uploads/all/ke7vhd3MtH8asbFEncrfahNQ37qvEubyzkapKwad.jpg",
+    "category": "Audio",
+    "price": 199.99,
+    "description": "High-fidelity wireless headphones with active noise cancellation.",
+    "specification": ["Bluetooth 5.0", "20-hour battery life", "Foldable design"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "4b6e9d9c-73bb-4f48-a9c4-2c77a2c38c03",
+    "product_title": "4K Ultra HD Smart TV 55\"",
+    "product_image": "https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_1100,f_auto,q_auto/https://s3.infra.brandquad.io/accounts-media/SHRP/DAM/origin/fad8ffe0-1f54-11ef-bf88-4a78011a65dc.jpg",
+    "category": "Television",
+    "price": 599.99,
+    "description": "55-inch smart TV with 4K UHD resolution and streaming apps.",
+    "specification": ["HDR10", "3 HDMI ports", "Voice control"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "1b0a97fd-874f-4a1e-90ea-f415a4f16258",
+    "product_title": "Smartphone Pro Max 128GB",
+    "product_image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/refurb-iphone-13-pro-max-silver-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=cGQrSmtHTlpUanRPWjdLZWZ2UjZaMTQwaTBtWDlFSjBKQVNOdG1EZEhML0MxUUZhNHdwcVV3SHc1bmIvampWSDJWZFpOeitUWk9MOGRxa0xRRTU2bXArdW5YY2NxRTNiUEE2UlhHdGN2eE5xQmk5b0hac0RtdkppaWdzNElZRDY",
+    "category": "Mobile",
+    "price": 999.99,
+    "description": "Flagship smartphone with a powerful processor and stunning display.",
+    "specification": ["6.7-inch OLED", "Triple camera", "5G support"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "c458c9f3-29c0-4bb3-8042-6a9c4a9e448d",
+    "product_title": "Gaming Laptop GTX Edition",
+    "product_image": "https://www.bhphotovideo.com/images/fb/msi_15_6_ge62_apache_pro_014_1187658.jpg",
+    "category": "Computers",
+    "price": 1299.99,
+    "description": "High-performance laptop designed for gamers and creators.",
+    "specification": ["Intel i7", "16GB RAM", "RTX 3060 GPU"],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "9272a624-cb75-4a82-8027-4174cfb64862",
+    "product_title": "Wireless Bluetooth Speaker",
+    "product_image": "https://xcessorieshub.com/wp-content/uploads/2024/01/original.jpg",
+    "category": "Audio",
+    "price": 49.99,
+    "description": "Compact and portable speaker with deep bass and long battery life.",
+    "specification": ["12-hour playtime", "Water-resistant", "Hands-free calls"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "b3189075-0a2a-4d62-b368-98f7ff7283b4",
+    "product_title": "Smartwatch Series 7",
+    "product_image": "https://i5.walmartimages.com/seo/Apple-Watch-Series-7-GPS-Cellular-45-mm-gold-stainless-steel-smart-watch-sport-band-fluoroelastomer-abyss-blue-band-size-Regular-32-GB-Wi-Fi-Bluetoot_2be892af-e4f0-461b-8473-01f08dfb607f.1b64bbd02ad7e89c171a3e5072619738.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "category": "Wearables",
+    "price": 349.99,
+    "description": "Advanced smartwatch with fitness tracking and health monitoring.",
+    "specification": ["Heart rate monitor", "GPS", "Waterproof"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "f4d2b3c9-c623-4016-9115-16e05caa81d6",
+    "product_title": "Tablet Plus 10\"",
+    "product_image": "https://m.media-amazon.com/images/I/51guvhnVbvL.jpg",
+    "category": "Tablets",
+    "price": 279.99,
+    "description": "Lightweight tablet with sharp display and long battery life.",
+    "specification": ["10.2-inch display", "64GB storage", "Wi-Fi"],
+    "availability": true,
+    "rating": 4.1
+  },
+  {
+    "product_id": "d249e9b8-74bb-4aa0-9d89-2196d9678c99",
+    "product_title": "Digital SLR Camera",
+    "product_image": "https://imaging.nikon.com/imaging/lineup/dslr/img/product_d780.jpg",
+    "category": "Cameras",
+    "price": 699.99,
+    "description": "DSLR camera with high-resolution sensor and interchangeable lenses.",
+    "specification": ["24MP", "Wi-Fi", "1080p video"],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": "e6e7c1a4-8b56-45b7-9627-ec4874b4c370",
+    "product_title": "Gaming Console X",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/gaming-console/microsoft/xbox-series-x/xbox-series-x-white-01-500x500.webp",
+    "category": "Gaming",
+    "price": 499.99,
+    "description": "Next-generation gaming console with immersive graphics.",
+    "specification": ["4K gaming", "1TB SSD", "Wireless controller"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "0f98a64b-5dd7-4389-bc90-9d3216f05956",
+    "product_title": "Mechanical Keyboard RGB",
+    "product_image": "https://m.media-amazon.com/images/I/61bF9k-m1JL.jpg",
+    "category": "Accessories",
+    "price": 89.99,
+    "description": "Durable mechanical keyboard with customizable RGB lighting.",
+    "specification": ["Blue switches", "Anti-ghosting", "USB-C"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "a1b2c3d4-5e6f-7a89-b0c1-d2e3f4g5h6i7",
+    "product_title": "Portable Power Bank 20000mAh",
+    "product_image": "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/j/o/joyroom-jr--pbf01-30w--1.jpg",
+    "category": "Accessories",
+    "price": 29.99,
+    "description": "High-capacity power bank with fast charging.",
+    "specification": ["USB-C", "LED indicators", "Quick Charge 3.0"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "abcd1234-ef56-7890-abcd-ef1234567890",
+    "product_title": "Home Security Camera",
+    "product_image": "https://images.othoba.com/images/thumbs/0583900_pan-tilt-outdoor-security-camera.jpeg",
+    "category": "Home",
+    "price": 59.99,
+    "description": "Wi-Fi enabled indoor security camera with motion detection.",
+    "specification": ["1080p HD", "Night vision", "Cloud storage"],
+    "availability": true,
+    "rating": 4.0
+  },
+  {
+    "product_id": "1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6",
+    "product_title": "Smart Thermostat",
+    "product_image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1697139743-51U1jXuTPVL.jpg?crop=1xw:1.00xh;center,top&resize=980:*",
+    "category": "Home",
+    "price": 129.99,
+    "description": "Smart thermostat with Wi-Fi and app control.",
+    "specification": ["Energy saving", "Touchscreen", "Voice assistant compatible"],
+    "availability": false,
+    "rating": 4.1
+  },
+  {
+    "product_id": "7f8e9d0c-1b2a-3c4d-5e6f-7g8h9i0j1k2l",
+    "product_title": "Wireless Charging Pad",
+    "product_image": "https://assets.gadgetandgear.com/upload/product/20240106_1704522023_349147.jpeg",
+    "category": "Accessories",
+    "price": 19.99,
+    "description": "Slim wireless charger compatible with all Qi devices.",
+    "specification": ["Fast charge", "LED indicator", "Overheat protection"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "9a8b7c6d-5e4f-3g2h-1i0j-k9l8m7n6o5p4",
+    "product_title": "Noise Cancelling Earbuds",
+    "product_image": "https://gadgetnmusic.com/wp-content/uploads/2024/01/Bose-QuietComfort-Ultra-Wireless-Noise-Cancelling-Earbuds.jpg",
+    "category": "Audio",
+    "price": 149.99,
+    "description": "Compact wireless earbuds with ANC and crystal-clear sound.",
+    "specification": ["Bluetooth 5.2", "24-hour battery", "Touch controls"],
+    "availability": true,
+    "rating": 4.5
+  }
+]

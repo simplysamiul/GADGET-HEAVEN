@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './components/Home/Home.jsx'
 import Dashboard from './components/Dashboard/Dashboard.jsx'
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx'
+import ProductDetails from './components/ProductDetails/ProductDetails.jsx'
 
 
 const router = createBrowserRouter([
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard />
+      },
+      {
+        path: "/product-details/:product_id",
+        loader: () => fetch("/gadget.json"),
+        element: <ProductDetails />
       }
     ],
   }

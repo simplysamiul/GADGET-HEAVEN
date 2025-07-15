@@ -1,7 +1,7 @@
 import { CiHeart } from "react-icons/ci";
 import { GiShoppingCart } from "react-icons/gi";
 import { SiEngadget } from "react-icons/si";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -19,7 +19,9 @@ const Navbar = () => {
                             <li><NavLink to="/dashboard">Dashboard</NavLink></li>
                         </ul>
                     </div>
-                    <SiEngadget className="text-2xl text-[#9538E2]" />
+                    <Link tp="/">
+                        <SiEngadget className="text-2xl text-[#9538E2]" />
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

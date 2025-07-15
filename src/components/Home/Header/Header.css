@@ -1,6 +1,6 @@
             
 .header-area{
-    outline-offset: 6px;
+    outline-offset: 4px;
     outline: 1px solid #9538e2ef;
     box-shadow: 0 0 30px 5px #9538e29f;
 }
@@ -11,4 +11,9 @@
 .header-shop-btn:hover{
     background: none;
     color: white;
+}
+.banner-img img{
+    z-index: 10;
+    outline-offset: 8px;
+    outline: 1px solid white;
 }
