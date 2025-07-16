@@ -1,0 +1,53 @@
+.gadget-cart-container{
+    overflow: hidden;
+    height: 350px;
+}
+.details-btn{
+    transform: translateY(200px);
+    transition: 0.5s ease-in-out;
+    
+}
+.gadget-cart-container:hover .details-btn{
+    transform: translateY(0px);
+    transition: 0.5s ease-in-out;   
+}
+.details-btn button:hover{
+    cursor: pointer;
+}
+.gadget-img{
+    transition: 0.5s ease-out;
+}
+.gadget-cart-container:hover .gadget-img{
+    transform: scale(1.2);
+    transition: 0.5s ease-out;
+}
+.details-btn a{
+    padding: 8px 12px;
+    background-color: white;
+    border: none;
+    color: #9538E2;
+    border-radius: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    font-size: 14px;
+}
+
+.details-btn a::after{
+    content: "";
+    position: absolute;
+    height: 107%;
+    width: 104%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom left, #DB60B0, #9538E2);
+    z-index: -1;
+    
+}
+
+.details-btn a:hover{
+    z-index: 0;
+    color: white;
+    cursor: pointer;
+}

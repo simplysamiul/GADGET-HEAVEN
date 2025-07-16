@@ -2,10 +2,11 @@ import { CiHeart } from "react-icons/ci";
 import { GiShoppingCart } from "react-icons/gi";
 import { SiEngadget } from "react-icons/si";
 import { Link, NavLink } from "react-router-dom";
+import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="bg-base-100 shadow  ">
+        <div className="bg-base-100 shadow ">
             <div className="navbar w-11/12 mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">

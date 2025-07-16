@@ -15,7 +15,9 @@ const Header = () => {
                     <h1 className="text-white font-bold text-2xl md:text-4xl lg:text-5xl w-11/12 md:w-10/12 mx-auto py-2 text-center">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
                     <p className="text-gray-100 text-center py-2 text-lg w-10/12 md:w-8/12 mx-auto">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
                     <div className="mx-auto flex justify-center">
-                        <button className=" header-shop-btn btn rounded-full bg-white text-[#9538E2] font-bold my-2">Shop Now</button>
+                        <button className="header-shop-btn btn rounded-full bg-white text-[#9538E2] font-bold my-2">
+                            Shop Now
+                        </button>
                     </div>
                 </div>
             </div>
