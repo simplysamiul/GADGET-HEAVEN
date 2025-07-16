@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Gadget from "../Gadget/Gadget";
 import './Gadgets.css';
+import Button from "../../../shared/Button/Button";
 
 
 const Gadgets = () => {
@@ -32,11 +33,11 @@ const Gadgets = () => {
             <div className="md:sticky md:top-0 md:z-10 md:bg-white/30 md:backdrop-blur-sm pb-4">
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 lg:grid-cols-6 w-11/12 mx-auto">
                     {
-                        buttons.map((button, idx) => <button
+                        buttons.map((button, idx) => <Button
                             onClick={() => handelFilterBtn(button)}
-                            className="fitler-btn flex w-full lg:my-4 hover:cursor-pointer" key={idx}>
+                            key={idx}>
                             {button}
-                        </button>)
+                        </Button>)
                     }
                 </div>
             </div>

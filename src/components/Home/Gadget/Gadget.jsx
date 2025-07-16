@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Gadget.css';
+import Button from '../../../shared/Button/Button';
 
 const Gadget = ({ gadget }) => {
     const { product_title, product_image, price, product_id } = gadget;
@@ -11,11 +12,9 @@ const Gadget = ({ gadget }) => {
             <h1 className='font-bold text-base md:text-sm lg:text-lg mb-0'>{product_title}</h1>
             <p className='my-1 text-sm'>Price : {price} $</p>
             <div className='duration-100 details-btn block'>
-                <button className='text-[#9538E2] font-bold'>
                 <Link to={`/product-details/${product_id}`}>
-                    View Details 
+                    <Button>View Details</Button>
                 </Link>
-                </button>
             </div>
         </div>
     );
