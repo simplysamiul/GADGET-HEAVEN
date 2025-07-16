@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 import './ProductDetails.css';
 import Button from '../../shared/Button/Button';
+import { addItem } from '../../utilities/localStorage';
 
 const ProductDetails = () => {
     const { id } = useParams();
@@ -19,7 +20,7 @@ const ProductDetails = () => {
             </div>
             <div>
                 {/* product details */}
-                <div v className=' w-11/12 lg:w-8/12 mx-auto flex flex-col lg:flex-row gadget-details-container items-center gap-4 z-10 relative'>
+                <div className=' w-11/12 lg:w-8/12 mx-auto flex flex-col lg:flex-row gadget-details-container items-center gap-4 z-10 relative'>
                     <div className='w-8/12'>
                         <img className='w-full' src={product_image} alt={`${product_title}-img`} />
                     </div>
@@ -29,9 +30,9 @@ const ProductDetails = () => {
                         <p className='font-semibold mb-2'>Category : {category}</p>
                         {availability
                             ?
-                            <div class="badge badge-soft badge-success my-2 font-bold">In Stock</div>
+                            <div className="badge badge-soft badge-success my-2 font-bold">In Stock</div>
                             :
-                            <div class="badge badge-soft badge-error my-2 font-bold">Stock Out</div>
+                            <div className="badge badge-soft badge-error my-2 font-bold">Stock Out</div>
                         }
                         <p className='mb-2'><span className='text-sm font-bold'>Description : </span>{description}</p>
                         <div className='mb-3'>
@@ -44,8 +45,10 @@ const ProductDetails = () => {
                         </div>
                         <h5 className='font-bold text-lg'>Rating : <span>{rating}</span></h5>
                         <div className='my-6 flex gap-4'>
-                            <button className='add-cart-btn'>Add to Cart</button>
-                            <Button>Wish List</Button>
+                            <button onClick={() => addItem(product_id, "cart")} className='add-cart-btn'>Add to Cart</button>
+                            <Button addClick={() => addItem(product_id, "wish")}>
+                                Wish List
+                            </Button>
                         </div>
                     </div>
                 </div>

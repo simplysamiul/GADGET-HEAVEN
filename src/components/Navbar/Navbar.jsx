@@ -3,8 +3,11 @@ import { GiShoppingCart } from "react-icons/gi";
 import { SiEngadget } from "react-icons/si";
 import { Link, NavLink } from "react-router-dom";
 import './Navbar.css';
+import { getItems } from "../../utilities/localStorage";
 
 const Navbar = () => {
+        const cart = getItems("cart");
+        const wish = getItems("wish");
     return (
         <div className="bg-base-100 shadow ">
             <div className="navbar w-11/12 mx-auto">
@@ -32,8 +35,21 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end flex items-center text-2xl font-bold">
-                    <GiShoppingCart className="border-1 border-gray-300 rounded-full p-0.5 mx-2" />
-                    <CiHeart className="border-1 border-gray-300 rounded-full p-0.5 mx-2" />
+                    {/* cart list */}
+                    <div className="relative">
+                        {cart.length ? <span
+                            className="text-[10px] bg-[#9538E2] p-1 text-white rounded-full object-fill absolute -top-2 right-0">
+                            {cart.length}
+                        </span> : ""}
+                        <GiShoppingCart className="border-1 border-gray-300 rounded-full p-0.5 mx-2" />
+                    </div>
+                    {/* wish list */}
+                    <div className="relative">
+                        {wish.length ? <span
+                            className="text-[10px] bg-[#9538E2] p-1 text-white rounded-full object-fill absolute -top-2 right-0">{wish.length}
+                        </span> : ""}
+                        <CiHeart className="border-1 border-gray-300 rounded-full p-0.5 mx-2" />
+                    </div>
                 </div>
             </div>
         </div>
