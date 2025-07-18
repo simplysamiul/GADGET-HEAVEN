@@ -61,7 +61,7 @@ const Dashboard = () => {
                             </div>
                             <div>
                                 <IoCloseCircleSharp
-                                onClick={() =>} 
+                                // onClick={() =>} 
                                 className='text-red-500 text-2xl hover:cursor-pointer' 
                                 />
                             </div>
