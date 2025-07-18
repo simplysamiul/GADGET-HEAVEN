@@ -7,7 +7,7 @@ const ProductDetails = () => {
     const { id } = useParams();
     const data = useLoaderData();
     const item = data.find(item => id === item.product_id);
-    const { category, description, price, product_id, product_image, product_title, rating, specification, availability } = item;
+    const { category, description, price, product_image, product_title, rating, specification, availability } = item;
     return (
         <div>
             <div className='bg-[#9538E2] h-[50vh]'>
@@ -45,8 +45,8 @@ const ProductDetails = () => {
                         </div>
                         <h5 className='font-bold text-lg'>Rating : <span>{rating}</span></h5>
                         <div className='my-6 flex gap-4'>
-                            <button onClick={() => addItem(product_id, "cart")} className='add-cart-btn'>Add to Cart</button>
-                            <Button addClick={() => addItem(product_id, "wish")}>
+                            <button onClick={() => addItem(id, "cart")} className='add-cart-btn'>Add to Cart</button>
+                            <Button addClick={() => addItem(id, "wish")}>
                                 Wish List
                             </Button>
                         </div>

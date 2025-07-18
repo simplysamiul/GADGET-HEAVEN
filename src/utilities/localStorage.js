@@ -1,5 +1,6 @@
 import { toast } from "react-toastify";
 
+// get card and wish list id that is added inside of the localstorage 
 const getItems = (cartType) =>{
     let storedItems ;
     if(cartType === "cart"){
@@ -14,6 +15,7 @@ const getItems = (cartType) =>{
     return [];
 };
 
+// wish and card list id added in the local storage
 const addItem = (id, cartType) =>{
     const storedItem = getItems(cartType);
     const includeItem = storedItem.includes(id);
@@ -26,6 +28,13 @@ const addItem = (id, cartType) =>{
     }else{
         toast.error("Items alredy added")
     }
-}
+};
+
+
+
+// emove card and wish list data from localstorage
+// const deleteItem = (id, cartType) =>{
+//     const storedItems = getItems(cartType);
+// }
 
 export {addItem, getItems};

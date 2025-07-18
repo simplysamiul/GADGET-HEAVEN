@@ -7,7 +7,6 @@ import Button from "../../../shared/Button/Button";
 const Gadgets = () => {
     const [gadgets, setGadegets] = useState([]);
     const [filteredData, setFilteredData] = useState([]);
-    console.log(filteredData);
     useEffect(() => {
         fetch("/gadget.json")
             .then(res => res.json())
