@@ -1,12 +1,15 @@
-# React + Vite
+# GADGET-HEAVEN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project Details & Features
+1) The GADGET-HEAVEN website is build based on gadgets. All data loaded dynamacally. 
+2) This websites's data can be filter using product categoryt. 
+3) If users click in the product card then users can see specific product details. 
+4) User can make add to cart and add to wish list. 
+5) User can see add to cart and wish list data in the dashboard route, also user can be remove data indivudually from here. 
+6) Users can see price graph from statistics route. 
 
-Currently, two official plugins are available:
+This website created using ReactJs, Tailwind css, Rechart etc. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Link [GADGET-HEAVEN](https://irate-church.surge.sh/)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
