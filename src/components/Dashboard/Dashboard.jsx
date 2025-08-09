@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import './Dashboard.css';
-import { getItems } from '../../utilities/localStorage';
+import { deleteItem, getItems } from '../../utilities/localStorage';
 import { useLoaderData } from 'react-router-dom';
 import { IoCloseCircleSharp } from 'react-icons/io5';
 
 const Dashboard = () => {
+    // state update
+    const [update, setUpdate] = useState(false);
     // loadded all of the gadegets data
     const data = useLoaderData();
     // set swap button design state
@@ -18,7 +20,7 @@ const Dashboard = () => {
     let loadedDataList;
     { btnActive === true ? loadedDataList = cardData : loadedDataList = wishData };
 
-    // loaded data from localstorage that is added in car list and wish list
+    // loaded data from localstorage that is added in cart list and wish list
     useEffect(() => {
         const cardList = getItems("cart");
         const cardListData = data.filter(item => cardList.includes(item.product_id));
@@ -26,7 +28,14 @@ const Dashboard = () => {
         const wishList = getItems("wish");
         const wishListData = data.filter(item => wishList.includes(item.product_id))
         setWishData(wishListData)
-    }, [data]);
+    }, [data, update]);
+    // item delete function
+    const handelDeletItem = (id) =>{
+        const cartType = btnActive ? "cart" : "wish";
+        deleteItem(cartType, id);
+        setUpdate(!update);
+    }
+
 
     return (
         <div>
@@ -56,12 +65,12 @@ const Dashboard = () => {
                                 <div>
                                     <h3 className='font-bold mb-1 text-xl'>{item.product_title}</h3>
                                     <p className='text-xs text-gray-400 mb-2'>{item.description}</p>
-                                    <h5 className='font-bold'>Prie : {item.price} $</h5>
+                                    <h5 className='font-bold'>Price : {item.price} $</h5>
                                 </div>
                             </div>
                             <div>
                                 <IoCloseCircleSharp
-                                // onClick={() =>} 
+                                onClick={() => handelDeletItem(item.product_id)} 
                                 className='text-red-500 text-2xl hover:cursor-pointer' 
                                 />
                             </div>

@@ -33,7 +33,7 @@ const Gadgets = () => {
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-x-4 lg:grid-cols-6 w-11/12 mx-auto">
                     {
                         buttons.map((button, idx) => <Button
-                            onClick={() => handelFilterBtn(button)}
+                            addClick = {() => handelFilterBtn(button)}
                             key={idx}>
                             {button}
                         </Button>)
